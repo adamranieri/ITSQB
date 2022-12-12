@@ -6,7 +6,7 @@
   - Focuses on input and output regardless of implementaiton
 - Experience
   - Tests conducted by a tester having *experience* in a relavent domain
-  - Can occur with ad hoc testing and when the requirements are ill-defined
+  - Can occur with ad hoc/exploraoty testing and when the requirements are ill-defined
   - Example
     - Experience from working on shopping apps before guides the tester making numerous tests around the shoppin kart
       - It is common for items in the kart not to update or remove correctly
@@ -122,3 +122,76 @@ stateDiagram-v2
   - Given the expense is pending. Whe the manager is unsure. Then the expense is deferred
   - Given the expense is deferred. When the Admin deems the expense valid. Then the expense is Approved.
   - Given the expense is deferred. When the Admin deems the expense invalid. Then the expense is Denied.
+
+### Use Case Testing
+- A step by step account of a ***use case*** is created
+- This typically includes the 
+  - **Actor**
+    - The Person/interfacing program
+  - **Subject**
+    - The system being interacted with by the Actor
+  - **Pre-condition**
+    - The given context for the use case
+  - **Post-Condition**
+    - The final result of the steps in the use case
+  - **Description**
+    - High level overview of the use case
+  - **Steps**
+    - Sequential order of actions to perform
+    - Could have branching steps
+
+#### Example User Case
+
+- Description
+  - Guest can order a pizza 
+- Actor
+  - Guest/ user without an account
+- Subject
+  - Little Adam's Pizza
+- Pre-condition
+  - The Guest is not logged in as anyone
+  - The Guest is on the order pizza page
+- Steps
+  1. The Guest clicks on order now button
+  2. The Guest selects cheese plain
+     1. Other standard pizzas are possible
+  3. The Guest can add multiple pizzas
+  4. The Guest selects pickup
+     1. The guest can pick delivery
+        1. Guest enters their address
+  5. The Guest presses complete order
+  6. The Guest is prompted to add credit details
+  7. The Guest pays with a credit card
+  8. The estimated time until pizza is ready for pickup is shown
+
+# White Box Techniques
+
+### Statement Testing
+- Testing the execution of every statement of code
+  - 396/401 statements are covered by a test
+### Decision Testing
+- Testing the branching paths of code execution
+  - Verifying each if-else and case are executed properly
+
+# Experience Based Techniques
+
+### Error Guessing
+- Using previous experience the tester tries some tests that have a higher chance of failure.
+- Knowledge could come from
+  - Having worked on this or a similar application from the past
+  - Related errors that have been encountered
+- Examples
+  - A tester error guesses that some metric to US Imperial units were handled incorrectly and narrows in and focuses on anything related to conversion. Previous work on an international team highlighted this pain point. 
+  - A tester who worked as a cashier before error guesses that certain void transaction user stories are not written correctly. Fovuses on verifying that the user stories can be completed as written.
+
+### Exploratory Testing
+
+- A tester *explores* an system with no rigid steps or instructions.
+  - Driven by gut feeling and unbounded
+- Sometimes given dedicated fixed times called **Session Testing**
+- Usually performed if there are very requirements/test basis and/or a time crunch
+
+### Checklist Testing
+- Experienced testers make a checklist of functional and non-functional tests
+- Testers update and work through the checklist
+- Usually done when there is an absence of detailed test cases
