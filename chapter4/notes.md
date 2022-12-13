@@ -71,7 +71,7 @@ Managers are charged with approving or rejecting expenses submitted by employees
 |---------|----------|---------|-------------|---------------|
 |Under $200? |Y      |    Y    |     N       |     N         |
 |Marked "Critical"|N |    Y    |     Y       |     N         |
-|**Result**|A        |    A    |     A       |     A          |
+|**Result**|A        |    A    |     A       |     D          |
 
 Legend
 - Y: Yes
