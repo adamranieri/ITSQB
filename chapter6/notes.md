@@ -1,0 +1,55 @@
+## Test Tools
+- Test Tools are designed to make testing easier
+- Automate manual activities
+- Management tools
+  - Help organzie test items and workflows
+    - Defect Reports
+    - Test Reports
+    - Test Cases
+    - Test Schedule
+    - Requirements Traceability
+  - Examples
+    - HP ALM
+    - JIRA
+- Static Testing
+  - Static Code Analysis
+  - User stories and business rules are often too high level to be interpreted by software
+  - Examples
+    - Sonar Cloud
+- Test Design and implementation
+  - Test Data Prep tools
+    - Tools that anonymize real user data for use in future tests
+  - Examples
+    - K2view
+- Test Execution and logging
+  - Testing Frameworks
+  - Examples
+    - JUnit
+    - Jest
+    - Cucmber
+- Performance Testing tools
+  - Tools that measure speed and efficiency
+  - Examples
+    - Locust
+    - JMeter
+
+### Automated Testing
+Utilizing testing tools for creating and executing testings
+- Pros
+  - Tests Run faster than a human
+  - Can be run anytime
+  - Produces more objective metrics like a timer or % of code covered
+  - Easy to repeat tests 
+  - Execute tests without human mistakes
+- Cons
+  - Requires skilled programmers for many automated testing tools
+  - Uusally a significant upfront cost
+  - Some tasks can be difficult to automate
+
+- Capture Test Approach
+  - A tool is used that allows a tester to manually fulfil a test
+  - The tool captures the users' actions 
+  - These actions are now automated and can be run at anytime
+- Data Driven Approach
+  - Data for tests is stored somewhere
+  - A script reads that data and executes the tests
