@@ -2,7 +2,7 @@
 # Fundamentals of testing
 
 - coverage,
-  - How much of the source code is being tested when test protocols are ran
+  - How much of the code is being tested when test protocols are ran.
 - debugging,
   - Development activity of hunting, analyzing and fixing defects
 - defect,
@@ -14,7 +14,7 @@
 - quality,
   - Measure of how well software complies to it's intended design
 - quality assurance,
-  - Maitenence of a certain level of quality through all steps of development to ensure quality in the final product
+  - Maintenance of a certain level of quality through all steps of development to ensure quality in the final product
 - root cause,
   - The earliest actions or events that contributed to the creation of  that defect
 - test analysis,
@@ -35,7 +35,7 @@
 - test data,
   - Concrete values to the inputs of a test case as well as expected results.
 - test design,
-  - Test condtions are elaborated into high level test cases and any associated testing technologies. Answers question of "how to test it?"
+  - Test conditions are elaborated into high level test cases and any associated testing technologies. Answers question of "how to test it?"
 - test execution,
   - Test suites are run in accordance with the test execution schedule.
 - test implementation,
@@ -45,11 +45,11 @@
 - test object,
   - What is being tested.
 - test objective,
-  - Reason why a test or testing in general is being conducted. Examples include verifying requirements are fufulled and finding defects and failures.
+  - Reason why a test or testing in general is being conducted. Examples include verifying requirements are fulfilled and finding defects and failures.
 - test oracle,
   - A mechanism to determine if a test passed or failed by comparing test output to expected test output when the test is run.
 - test planning,
-  - Activities that define the objectives of testing and the approach for meeting test objcetives within constraints imposed by other context (such as a project milestone deadline.)
+  - Activities that define the objectives of testing and the approach for meeting test objectives within constraints imposed by other context (such as a project milestone deadline.)
 - test procedure,
   - Sequence test cases are arranged in when a test suite is run.
 - test process,
@@ -68,9 +68,9 @@
   - Checking if a system meets specified requirements
 - False Positive
   - A test *fails* due to errors in test data or execution
-- False Neagtaive
+- False Negative
   - A test *passes* due to errors in test data or execution
 - Root Cause Analysis
   - Searching for the progenitor defect that is causing cascading bugs
 - KPI
-  - Key Performance Indicator - a quantifiable measure of performance over time for a speciic objective
+  - Key Performance Indicator - a quantifiable measure of performance over time for a specific objective
